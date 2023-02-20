@@ -1,6 +1,11 @@
 // library
 #include <stdio.h>
 
+//const
+#define NOL 0
+#define SATU 1
+#define PHI 3.1415
+
 //code program
 int main(void) {
     printf("hi there, its just ice cream!\n");
@@ -27,6 +32,9 @@ int main(void) {
 
     printf("char value is: %c\n", valueChar);
     printf("char value is: %c\n", otherValueChar);
+
+    printf("const value is: %d\n", NOL);
+    printf("phi const value is: %6.2f\n", PHI);
 
 }
 

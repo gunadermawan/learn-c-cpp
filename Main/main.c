@@ -36,6 +36,9 @@ int main(void) {
     printf("const value is: %d\n", NOL);
     printf("phi const value is: %6.2f\n", PHI);
 
+//    Const is not allowed to assigned new value
+//    PHI = 20;
+
 }
 
 //with return value

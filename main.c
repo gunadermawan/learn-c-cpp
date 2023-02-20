@@ -3,6 +3,6 @@
 
 //code program
 int main(void) {
-    printf("Hello, World!\n");
+    printf("hi there, its just ice cream!\n");
     return 0;
 }

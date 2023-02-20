@@ -1,0 +1,3 @@
+/Users/gunadermawan/CLionProjects/learn-c/cmake-build-debug/CMakeFiles/learn_c.dir
+/Users/gunadermawan/CLionProjects/learn-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gunadermawan/CLionProjects/learn-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

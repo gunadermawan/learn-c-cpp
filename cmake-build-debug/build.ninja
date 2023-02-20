@@ -46,17 +46,11 @@ cmake_ninja_workdir = /Users/gunadermawan/CLionProjects/learn-c/cmake-build-debu
 
 build cmake_object_order_depends_target_learn_c: phony || CMakeFiles/learn_c.dir
 
-build CMakeFiles/learn_c.dir/main.c.o: C_COMPILER__learn_c_Debug /Users/gunadermawan/CLionProjects/learn-c/main.c || cmake_object_order_depends_target_learn_c
-  DEP_FILE = CMakeFiles/learn_c.dir/main.c.o.d
+build CMakeFiles/learn_c.dir/Main/main.c.o: C_COMPILER__learn_c_Debug /Users/gunadermawan/CLionProjects/learn-c/Main/main.c || cmake_object_order_depends_target_learn_c
+  DEP_FILE = CMakeFiles/learn_c.dir/Main/main.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/learn_c.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_c.dir
-
-build CMakeFiles/learn_c.dir/main-with-return.c.o: C_COMPILER__learn_c_Debug /Users/gunadermawan/CLionProjects/learn-c/main-with-return.c || cmake_object_order_depends_target_learn_c
-  DEP_FILE = CMakeFiles/learn_c.dir/main-with-return.c.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/learn_c.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_c.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_c.dir/Main
 
 
 # =============================================================================
@@ -66,7 +60,7 @@ build CMakeFiles/learn_c.dir/main-with-return.c.o: C_COMPILER__learn_c_Debug /Us
 #############################################
 # Link the executable learn_c
 
-build learn_c: C_EXECUTABLE_LINKER__learn_c_Debug CMakeFiles/learn_c.dir/main.c.o CMakeFiles/learn_c.dir/main-with-return.c.o
+build learn_c: C_EXECUTABLE_LINKER__learn_c_Debug CMakeFiles/learn_c.dir/Main/main.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/learn_c.dir
   POST_BUILD = :
